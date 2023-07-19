@@ -3,9 +3,9 @@ import {StyleSheet} from "react-native";
 import {Entypo} from "@expo/vector-icons";
 import {Link} from "expo-router";
 import {FlatList} from "react-native-gesture-handler";
-import data from "../../assets/data/tweets";
-import {View} from "../../components/Themed";
-import Tweet from "../../components/Tweet";
+import data from "../../../assets/data/tweets";
+import {View} from "../../../components/Themed";
+import Tweet from "../../../components/Tweet";
 
 const tweet = data[0];
 export default function TabOneScreen() {
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 20,
     right: 20,
-   
+
     borderRadius: 50,
     padding: 10,
 
